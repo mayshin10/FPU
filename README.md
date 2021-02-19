@@ -25,7 +25,7 @@ I/O features
 
 Other features
 ---------------------------------------------
-* Rounding rules
+* Rounding rules<br>
 To achieve efficiency of operation, round to the ```8th digit``` after the decimal point.
    * ```Rounding ties to even```
       * Rounding up or rounding down to nearest value
