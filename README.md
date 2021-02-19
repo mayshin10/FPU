@@ -5,7 +5,7 @@ I/O features
 ---------------------------------------------
 <br><img src="img_src/io.png" width="500px" align="center" > </img><br>
 
-* ###input
+* ### input
    * ```clk```
    * ```reset```
    * ```2-bits selection signal```
@@ -18,7 +18,7 @@ I/O features
       * 1'b1: rounding down
    * ```1-bit start signal```
    * ```32-bit floating point operand A, B```
-* ###output
+* ### output
    * ```32-bit floating point result Y```
    * ```1-bit Overflow```
    * ```1-bit Error```
