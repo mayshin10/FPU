@@ -37,9 +37,9 @@ To achieve efficiency of operation, round to the ```8th digit``` after the decim
     * Invalid operation
         when NaN occurs, return NaN, return error 1
     * Division by zero
-        Return &infin, return overflow 1
+        Return &infin;, return overflow 1
     * Overflow
-        Return &infin, return overflow 1
+        Return &infin;, return overflow 1
 
 <br>
 <br>
