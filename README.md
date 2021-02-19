@@ -1,7 +1,7 @@
 # Floating Point Unit
 It is a verilog design and synthesis for 32-bits FPU following IEEE 754 standard. Four calculation modes are supported; addition, subtraction, multiplication, and division. All calculations are showing results within two cycles at 250MHz clock frequency.<br>
 
-# I/O features
+## I/O features
 ---------------------------------------------
 <br><img src="img_src/io.png" width="500px" align="center" > </img><br>
 
