@@ -9,10 +9,10 @@ I/O features
    * ```clk```
    * ```reset```
    * ```2-bits selection signal```
-      * ```2'b00: add```
-      * ```2'b01: sub```
-      * ```2'b10: mul```
-      * ```2'b11: div```
+      * 2'b00: add
+      * 2'b01: sub
+      * 2'b10: mul
+      * 2'b11: div
    * ```1-bit rounding mode selection signal```
       * ```1'b0: rounding ties to even```
       * ```1'b1: rounding down```
@@ -26,7 +26,7 @@ I/O features
 Other features
 ---------------------------------------------
 * Rounding rules
-To achieve efficiency of operation, round to the ```eight digit``` after the decimal point.
+To achieve efficiency of operation, round to the ```8th digit``` after the decimal point.
    * ```Rounding ties to even```
       * Rounding up or rounding down to nearest value
       * If there are two nearest values, choosing round up or down which makes last fraction bit even
