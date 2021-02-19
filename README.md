@@ -3,7 +3,7 @@ It is a verilog design and synthesis for 32-bits FPU following IEEE 754 standard
 
 I/O features
 ---------------------------------------------
-<img src="img_src/io.png" border="100px" align="center" > </img><br>
+<br><img src="img_src/io.png" width="500px" align="center" > </img><br>
 
 * input
    * ```clk```
@@ -14,8 +14,8 @@ I/O features
       * 2'b10: mul
       * 2'b11: div
    * ```1-bit rounding mode selection signal```
-      * ```1'b0: rounding ties to even```
-      * ```1'b1: rounding down```
+      * 1'b0: rounding ties to even
+      * 1'b1: rounding down
    * ```1-bit start signal```
    * ```32-bit floating point operand A, B```
 * output
