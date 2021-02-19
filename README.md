@@ -25,7 +25,7 @@ I/O features
 
 Other features
 ---------------------------------------------
-* Rounding rules<br>
+* ### Rounding rules<br>
 To achieve efficiency of operation, round to the ```8th digit``` after the decimal point.
    * ```Rounding ties to even```
       * Rounding up or rounding down to nearest value
@@ -33,7 +33,7 @@ To achieve efficiency of operation, round to the ```8th digit``` after the decim
    * ```Rounding down```
       * Always round down toward -&infin;
 
-* Exception handling
+* ### Exception handling
     * Invalid operation
         when NaN occurs, return NaN, return error 1
     * Division by zero
