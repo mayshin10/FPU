@@ -2,7 +2,7 @@
 It is a verilog design and synthesis for 32-bits FPU following IEEE 754 standard. Four calculation modes are supported; addition, subtraction, multiplication, and division. All calculations are showing results within two cycles at 250MHz clock frequency.<br><br>
 
 # I/O features
-<br><img src="img_src/io.png" width="500px" align="center" > </img><br>
+<img src="img_src/io.png" width="500px" align="center" > </img><br>
 
 * ### input
    * ```clk```
@@ -45,13 +45,13 @@ To achieve efficiency of operation, round to the ```8th digit``` after the decim
 <br>
 
 # File structure for the FPU design and Verification
-<img src="img_src/fileStructure.png" width="500px" align="center" > </img><br><br>
+<img src="img_src/fileStructure.png" width="1000px" align="center" > </img><br><br>
 
  
 # Synthesis spec
 * ```Samsung 32nm library``` and ```Design Vision tool``` were applied for synthesis.
-<img src="img_src/area.png" border="100px" align="center" > </img><br>
 * ```total cell area = 12820```
-<img src="img_src/timing.png" border="100px" align="center" > </img><br>
-* ```Slack = 0.02 ``` @ ```Clock frequency = 250 MHz```. 2 cyclces for calculation.
+<img src="img_src/area.png" width="500px" align="center" > </img><br>
+* Slack = ```0.02``` @ Clock frequency = ```250 MHz```. ```2 cyclces``` for calculation.
+<img src="img_src/timing.png" width="500px" align="center" > </img><br>
 
