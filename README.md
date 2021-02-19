@@ -51,7 +51,7 @@ To achieve efficiency of operation, round to the ```8th digit``` after the decim
 # Synthesis spec
 * ```Samsung 32nm library``` and ```Design Vision tool``` were applied for synthesis.<br>
 
-* ```total cell area = 12820```
+* total cell area = ```12820```
 
 <img src="img_src/area.png" width="500px" align="center" > </img><br>
 <br>
