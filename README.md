@@ -45,7 +45,7 @@ To achieve efficiency of operation, round to the ```8th digit``` after the decim
 <br>
 
 # File structure for the FPU design and Verification
-<img src="img_src/fileStructure.png" width="1000px" align="center" > </img><br><br>
+<img src="img_src/fileStructure.png" width="800px" align="center" > </img><br><br>
 
  
 # Synthesis spec
@@ -53,7 +53,7 @@ To achieve efficiency of operation, round to the ```8th digit``` after the decim
 
 * ```total cell area = 12820```
 
-<img src="img_src/area.png" width="500px" align="center" > </img><br
+<img src="img_src/area.png" width="500px" align="center" > </img><br>
 
 * Slack = ```0.02``` @ Clock frequency = ```250 MHz```. ```2 cyclces``` for calculation.
 
