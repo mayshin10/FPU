@@ -16,9 +16,9 @@ It is a verilog design and synthesis for 32-bits FPU following IEEE 754 standard
       * 1'b0: rounding ties to even
       * 1'b1: rounding down
    * ```1-bit start signal```
-   * ```32-bit floating point operand A, B```
+   * ```32-bits floating point operand A, B```
 * ### output
-   * ```32-bit floating point result Y```
+   * ```32-bits floating point result Y```
    * ```1-bit Overflow```
    * ```1-bit Error```
 <br>
