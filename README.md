@@ -1,5 +1,5 @@
 # Floating Point Unit
-It is a verilog design and synthesis for 32-bits FPU following IEEE 754 standard. Four calculation modes are supported; addition, subtraction, multiplication, and division. All calculations are showing results within two cycles at 250MHz clock frequency.<br><br>
+It is a verilog design and synthesis for 32-bit FPU following IEEE 754 standard. Four calculation modes are supported; addition, subtraction, multiplication, and division. All calculations are showing results within two cycles at 250MHz clock frequency.<br><br>
 
 # I/O features
 <img src="img_src/io.png" width="500px" align="center" > </img><br>
@@ -7,7 +7,7 @@ It is a verilog design and synthesis for 32-bits FPU following IEEE 754 standard
 * ### input
    * ```clk```
    * ```reset```
-   * ```2-bits selection signal```
+   * ```2-bit selection signal```
       * 2'b00: add
       * 2'b01: sub
       * 2'b10: mul
@@ -16,9 +16,9 @@ It is a verilog design and synthesis for 32-bits FPU following IEEE 754 standard
       * 1'b0: rounding ties to even
       * 1'b1: rounding down
    * ```1-bit start signal```
-   * ```32-bits floating point operand A, B```
+   * ```32-bit floating point operand A, B```
 * ### output
-   * ```32-bits floating point result Y```
+   * ```32-bit floating point result Y```
    * ```1-bit Overflow```
    * ```1-bit Error```
 <br>
